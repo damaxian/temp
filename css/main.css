@@ -141,25 +141,7 @@ section {
     -webkit-text-fill-color: transparent;
     background-size: 100%; } }
 
-@keyframes text {
-  0% {
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: white;
-    background-size: 0; }
-  100% {
-    background: linear-gradient(180deg, #fff 20%, red 200%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 100%; } }
 
 .nav__item > a {
   transition: background-size 1.5s ease-in-out; }
-  .nav__item > a:hover {
-    -webkit-animation-name: text;
-            animation-name: text;
-    -webkit-animation-duration: 2.5s;
-            animation-duration: 2.5s;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-iteration-count: 1;
-            animation-iteration-count: 1; }
+  
